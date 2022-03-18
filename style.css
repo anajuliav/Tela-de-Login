@@ -16,7 +16,8 @@ body{
     color: white;
     display: flex;
     min-height: 100vh;
-    justify-content: center;
+    
+   
     
     
 }
@@ -25,22 +26,24 @@ body{
      width:50vw;
      display: flex;
      flex-direction: column;
+     align-items: center;
      justify-content: center;
      font-size: 1.1rem;
      
  }
 
  label{
-     
- margin-top: 2rem;
-    
+  
+   margin-top: 2rem;
+
  }
 
  input{
-
+ 
     background: #161923;
     width: 300px;
-    height:40px; 
+    height:50px; 
+    padding: 0 0.7rem;
     margin-top: 1rem;
     outline: none;
     color: rgba(166, 166, 166);
@@ -52,21 +55,21 @@ body{
 
  h1{
      color:#8880FE ;
-     font-size: 2rem;
+     font-size: 2.5rem;
      margin-bottom: 3rem;
  }
  
  button{
 
  cursor: pointer;
- width: 50%;
+ width: 20%;
  margin-top: 4rem;
  border: none;
- border-radius: 32px;
+ border-radius: 34px;
  background:#6C63FF ;
  color: white;
  font-size: 1.1rem;
- padding: 4px;
+ padding: 8px;
  
  }
 
@@ -77,8 +80,7 @@ background: #5952d4;
 }
 
 .image{
-    
-}
+   
     
 
  
